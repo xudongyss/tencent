@@ -1,0 +1,19 @@
+{
+    "name": "xudongyss/tencent",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xudongyss",
+            "email": "xudong.yss@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "XuDongYss\\Tencent\\": "src/"
+        }
+    }
+}
